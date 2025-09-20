@@ -47,6 +47,10 @@ dependencies {
 
     implementation("com.github.lisawray.groupie:groupie:2.10.1")
 
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.2.1")
+
     implementation("androidx.core:core-splashscreen:1.0.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
