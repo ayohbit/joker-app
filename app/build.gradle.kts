@@ -52,6 +52,9 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.2.1")
 
     implementation("androidx.core:core-splashscreen:1.0.1")
+
+    implementation("com.squareup.picasso:picasso:2.71828")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
